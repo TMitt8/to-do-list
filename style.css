@@ -1,0 +1,74 @@
+ul{ list-style-type: none; }
+
+h1 {
+text-align: center;
+font-family: Oswald;
+padding: 10px;
+}
+
+.button {
+border-radius: 50%;
+height: 30px;
+width: 30px;
+float: right;
+margin-right: 20vh;
+}
+
+#myButton {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Fairytale_button_add.svg/300px-Fairytale_button_add.svg.png");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#list li{
+font-family: Oswald;
+font-size: 20px;
+border: 1px solid black;
+padding: 10px 20px;
+margin-right: 20vh
+}
+
+#list li:hover {
+text-decoration: line-through;
+background-color: #d0d0d0
+}
+
+ul li:nth-child(6n+1) {
+  background: #ff4f4f;
+}
+
+ul li:nth-child(6n+2) {
+  background: #ffa740;
+}
+
+ul li:nth-child(6n+3) {
+  background: #ecf70a;
+
+}
+
+ul li:nth-child(6n+4) {
+  background: #42e634;
+}
+
+ul li:nth-child(6n+5) {
+  background: #4684ef;
+}
+
+ul li:nth-child(6n+6) {
+  background: #933ce6;
+}
+
+body {
+background-color: #3a3939;
+}
+
+header {
+background-color: #8aff34;
+margin-top:-21px;
+margin-right:-10px;
+margin-left:-10px;
+}
+
+#face {
+color: #3a3939;
+}
